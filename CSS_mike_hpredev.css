@@ -1,0 +1,39 @@
+*{
+  border: 0px;
+  margin:0px;
+}
+#container{
+  position:absolute;
+  position.x = 0;
+  position.y = 0;
+  height: 800px;
+  width:970px;
+  border: 1px solid red;
+  opacity:1;}
+
+#background_img{
+  position:absolute;
+  width:970px;
+  position.x = 0;
+  position.y = 0;
+  border: 1px solid green;
+  opacity:0.5;
+}
+
+div{
+  min-height:10px;
+  min-width:10px;
+  position:relative;
+display:inline-block;
+vertical-align:top;}
+
+#to_toggle{
+  position:relative;
+  left:700px;
+  top:700px;
+  border:5px solid green;
+}
+
+ul{
+  padding:15px;
+}
